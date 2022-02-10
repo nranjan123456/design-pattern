@@ -6,4 +6,5 @@
 !.yarn/sdks
 !.yarn/versions
 
+.yarn.lock
 .DS_STORE

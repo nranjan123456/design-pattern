@@ -34,6 +34,8 @@
   },
   "dependencies": {
     "@supercharge/promise-pool": "^2.1.0",
-    "glob": "^7.2.0"
-  }
+    "glob": "^7.2.0",
+    "node-fetch": "^3.2.0"
+  },
+  "type": "module"
 }

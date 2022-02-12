@@ -1773,6 +1773,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@supercharge/promise-pool@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@supercharge/promise-pool@npm:2.1.0"
+  checksum: e2a52312f026c0bea965d7e2e776b156ffa900ed110669afcb179f306af0ee73c9e151046f1e34e02b48e96b7ee990befeeca40cc585049f25d6adbf7692d494
+  languageName: node
+  linkType: hard
+
 "@szmarczak/http-timer@npm:^1.1.2":
   version: 1.1.2
   resolution: "@szmarczak/http-timer@npm:1.1.2"
@@ -3182,6 +3189,7 @@ __metadata:
     "@babel/eslint-parser": ^7.16.5
     "@babel/node": ^7.16.7
     "@babel/preset-env": ^7.16.11
+    "@supercharge/promise-pool": ^2.1.0
     "@types/jest": ^27.4.0
     cross-env: ^7.0.3
     dotenv: ^10.0.0

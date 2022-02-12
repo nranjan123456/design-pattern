@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/eslint-parser", "virtual:f1bdd026878022008238b704d13939b8a7cd61de716a0ebda8585b715125c84ff32c661298e54eb2021991e0ba3c2ae1ece70142fed8128b37fe0802d3844be4#npm:7.16.5"],
             ["@babel/node", "virtual:f1bdd026878022008238b704d13939b8a7cd61de716a0ebda8585b715125c84ff32c661298e54eb2021991e0ba3c2ae1ece70142fed8128b37fe0802d3844be4#npm:7.16.7"],
             ["@babel/preset-env", "virtual:f1bdd026878022008238b704d13939b8a7cd61de716a0ebda8585b715125c84ff32c661298e54eb2021991e0ba3c2ae1ece70142fed8128b37fe0802d3844be4#npm:7.16.11"],
+            ["@supercharge/promise-pool", "npm:2.1.0"],
             ["@types/jest", "npm:27.4.0"],
             ["cross-env", "npm:7.0.3"],
             ["dotenv", "npm:10.0.0"],
@@ -3155,6 +3156,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@supercharge/promise-pool", [
+        ["npm:2.1.0", {
+          "packageLocation": "./.yarn/cache/@supercharge-promise-pool-npm-2.1.0-77aedf837b-e2a52312f0.zip/node_modules/@supercharge/promise-pool/",
+          "packageDependencies": [
+            ["@supercharge/promise-pool", "npm:2.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@szmarczak/http-timer", [
         ["npm:1.1.2", {
           "packageLocation": "./.yarn/cache/@szmarczak-http-timer-npm-1.1.2-ea82ca2d55-4d9158061c.zip/node_modules/@szmarczak/http-timer/",
@@ -4870,6 +4880,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/eslint-parser", "virtual:f1bdd026878022008238b704d13939b8a7cd61de716a0ebda8585b715125c84ff32c661298e54eb2021991e0ba3c2ae1ece70142fed8128b37fe0802d3844be4#npm:7.16.5"],
             ["@babel/node", "virtual:f1bdd026878022008238b704d13939b8a7cd61de716a0ebda8585b715125c84ff32c661298e54eb2021991e0ba3c2ae1ece70142fed8128b37fe0802d3844be4#npm:7.16.7"],
             ["@babel/preset-env", "virtual:f1bdd026878022008238b704d13939b8a7cd61de716a0ebda8585b715125c84ff32c661298e54eb2021991e0ba3c2ae1ece70142fed8128b37fe0802d3844be4#npm:7.16.11"],
+            ["@supercharge/promise-pool", "npm:2.1.0"],
             ["@types/jest", "npm:27.4.0"],
             ["cross-env", "npm:7.0.3"],
             ["dotenv", "npm:10.0.0"],

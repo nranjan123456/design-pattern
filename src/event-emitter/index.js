@@ -10,7 +10,6 @@ Emitter.prototype.on = function (type, listener) {
 };
 
 const emitter = new Emitter();
-
 emitter.on('greeting', function () {
   console.log('Hello, Node!');
 });

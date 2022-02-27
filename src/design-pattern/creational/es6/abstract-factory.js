@@ -1,4 +1,7 @@
 'use strict';
+/*
+추상
+*/
 
 function droidProducer(kind) {
   if (kind === 'battle') return battleDroidFactory;

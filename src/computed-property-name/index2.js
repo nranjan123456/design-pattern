@@ -20,7 +20,9 @@ const obj = {
   },
 };
 
-console.log(obj['getRide']());
-console.log(obj['getStart']());
+const RIDE = 'Ride';
+console.log(obj[`get${RIDE}`]());
+const START = 'Start';
+console.log(obj[`get${START}`]());
 console.log(obj['getBreak']());
 console.log(obj['getStop']());
